@@ -6,7 +6,7 @@
     },
     "dependencies": {
         "adaro": "^1.0.4",
-        "azure-iot-device": "^1.9.9",
+        "azure-iot-device": "^1.17.6",
         "azure-iot-device-amqp": "^1.9.9",
         "express": "^4.16.0",
         "http-errors": "^1.6.2",
