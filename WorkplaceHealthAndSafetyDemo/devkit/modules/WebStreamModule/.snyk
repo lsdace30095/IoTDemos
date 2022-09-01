@@ -1,0 +1,8 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - azure-iot-device-amqp > azure-iot-device > azure-iot-http-base > azure-iot-common > getos > async > lodash:
+        patched: '2022-09-01T07:36:08.344Z'
