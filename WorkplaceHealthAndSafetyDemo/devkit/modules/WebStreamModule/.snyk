@@ -1,0 +1,34 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - azure-iot-device > lodash:
+        patched: '2022-10-06T22:58:21.452Z'
+    - azure-iot-device > machina > lodash:
+        patched: '2022-10-06T22:58:21.452Z'
+    - azure-iot-device-amqp > machina > lodash:
+        patched: '2022-10-06T22:58:21.452Z'
+    - azure-iot-device-amqp > azure-iot-device > lodash:
+        patched: '2022-10-06T22:58:21.452Z'
+    - azure-iot-device-amqp > async > lodash:
+        patched: '2022-10-06T22:58:21.452Z'
+    - azure-iot-device-amqp > azure-iot-device > machina > lodash:
+        patched: '2022-10-06T22:58:21.452Z'
+    - azure-iot-device-amqp > azure-iot-amqp-base > machina > lodash:
+        patched: '2022-10-06T22:58:21.452Z'
+    - azure-iot-device-amqp > azure-iot-amqp-base > async > lodash:
+        patched: '2022-10-06T22:58:21.452Z'
+    - azure-iot-device > azure-iot-common > getos > async > lodash:
+        patched: '2022-10-06T22:58:21.452Z'
+    - azure-iot-device-amqp > azure-iot-common > getos > async > lodash:
+        patched: '2022-10-06T22:58:21.452Z'
+    - azure-iot-device > azure-iot-http-base > azure-iot-common > getos > async > lodash:
+        patched: '2022-10-06T22:58:21.452Z'
+    - azure-iot-device-amqp > azure-iot-device > azure-iot-common > getos > async > lodash:
+        patched: '2022-10-06T22:58:21.452Z'
+    - azure-iot-device-amqp > azure-iot-amqp-base > azure-iot-common > getos > async > lodash:
+        patched: '2022-10-06T22:58:21.452Z'
+    - azure-iot-device-amqp > azure-iot-device > azure-iot-http-base > azure-iot-common > getos > async > lodash:
+        patched: '2022-10-06T22:58:21.452Z'
