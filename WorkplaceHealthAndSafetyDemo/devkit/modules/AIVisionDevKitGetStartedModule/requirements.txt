@@ -1,3 +1,4 @@
 requests
 azure-iothub-device-client~=1.4.3
 iotccsdk
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
