@@ -1,4 +1,4 @@
-FROM ubuntu:xenial
+FROM ubuntu:xenial-20210114
 
 RUN echo "BUILD MODULE: CameraCapture"
 
